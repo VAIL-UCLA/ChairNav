@@ -2,7 +2,9 @@
 
 Project website for **ChairNav: Cross-Embodiment Pretraining and Personalization for Long-Horizon Wheelchair Navigation**.
 
-Junhua Huang*, Zhizheng Liu*, Honglin He, Xiang Zhang, and Bolei Zhou. *Equal contribution.
+Junhua Huang¹*, Zhizheng Liu¹*, Honglin He¹, [Xiang Zhang¹²](https://innns.top/), and Bolei Zhou¹. *Equal contribution.
+
+¹ University of California, Los Angeles · ² Louisiana State University
 
 ## Website
 
