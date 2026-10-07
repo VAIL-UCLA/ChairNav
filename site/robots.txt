@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://vail.cs.ucla.edu/ChairNav/sitemap.xml
