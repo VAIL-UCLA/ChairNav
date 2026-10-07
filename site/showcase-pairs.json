@@ -1,0 +1,108 @@
+{
+  "G03": {
+    "reference": 6.0,
+    "duration": 12.0,
+    "rows": [
+      {
+        "key": "G03_long_kl10fl2_ep61",
+        "anchor": 6.0,
+        "anchor_frame": 28100,
+        "clip_start_frame": 27920,
+        "last_time": 13.9,
+        "states": [
+          {
+            "t": 0.03333,
+            "state": "Autonomous"
+          },
+          {
+            "t": 5.93333,
+            "state": "Human takeover"
+          },
+          {
+            "t": 7.83333,
+            "state": "Autonomous"
+          }
+        ],
+        "offset": 0.0
+      },
+      {
+        "key": "G03_long_e3q_same_s_as_MID_ep61",
+        "anchor": 7.4,
+        "anchor_frame": 24966,
+        "clip_start_frame": 24744,
+        "last_time": 13.4,
+        "states": [
+          {
+            "t": 0.06667,
+            "state": "Autonomous"
+          }
+        ],
+        "offset": 1.4000000000000004
+      }
+    ],
+    "basis": "MID onset and POST same-route reference frames from the delivered sidecar. Separate runs; constant offsets, no time warping. Local clip time = (SVO frame - first SVO frame) / 30."
+  },
+  "G02": {
+    "reference": 6.0,
+    "duration": 12.2,
+    "rows": [
+      {
+        "key": "G02_long_kl10fl2_ep38",
+        "anchor": 6.0,
+        "anchor_frame": 17327,
+        "clip_start_frame": 17147,
+        "last_time": 13.2,
+        "states": [
+          {
+            "t": 0.03333,
+            "state": "Autonomous"
+          },
+          {
+            "t": 5.93333,
+            "state": "Human takeover"
+          },
+          {
+            "t": 7.13333,
+            "state": "Autonomous"
+          }
+        ],
+        "offset": 0.0
+      },
+      {
+        "key": "G02_long_e3q_same_s_as_MID_ep38",
+        "anchor": 7.2,
+        "anchor_frame": 16149,
+        "clip_start_frame": 15933,
+        "last_time": 13.4,
+        "states": [
+          {
+            "t": -0.03333,
+            "state": "Human takeover"
+          },
+          {
+            "t": 0.66667,
+            "state": "Autonomous"
+          },
+          {
+            "t": 1.26667,
+            "state": "Human takeover"
+          },
+          {
+            "t": 1.56667,
+            "state": "Autonomous"
+          },
+          {
+            "t": 1.96667,
+            "state": "Human takeover"
+          },
+          {
+            "t": 2.26667,
+            "state": "Autonomous"
+          }
+        ],
+        "offset": 1.2000000000000002
+      }
+    ],
+    "basis": "MID onset and POST same-route reference frames from the delivered sidecar. Separate runs; constant offsets, no time warping. Local clip time = (SVO frame - first SVO frame) / 30."
+  }
+}

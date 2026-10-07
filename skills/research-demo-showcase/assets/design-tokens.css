@@ -1,0 +1,20 @@
+/* Optional starting palette distilled from the ChairNav showcase. */
+:root {
+  --demo-ink: #24292e;
+  --demo-secondary: #505c65;
+  --demo-line: #e2e6e9;
+  --demo-surface: #ffffff;
+  --demo-surface-muted: #f7f8fa;
+  --demo-control: #303940;
+  --demo-pre: #396b99;
+  --demo-pre-surface: #eff5fb;
+  --demo-mid: #466f42;
+  --demo-mid-surface: #f0f6f0;
+  --demo-post: #925831;
+  --demo-post-surface: #fbf3ec;
+  --demo-auto: #176d45;
+  --demo-human: #ad343c;
+  --demo-content-width: 1180px;
+  --demo-radius: 14px;
+  --demo-focus-time: 250ms;
+}

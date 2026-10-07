@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Demo Showcase"
+  short_description: "Video-first research sites with focused, optional detail"
+  default_prompt: "Use $research-demo-showcase to build a results-first research website with cinematic video and optional method details."
