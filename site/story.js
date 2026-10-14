@@ -3,7 +3,7 @@
 const $=s=>document.querySelector(s);
 const reduced=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches && new URLSearchParams(window.location?.search||'').get('motion')!=='full';
 document.body.classList.toggle('reduce-motion',Boolean(reduced));
-const [D,alignment]=await Promise.all(['./data.json?style=gradient-20261013','./showcase-pairs.json'].map(async u=>{const r=await fetch(u);if(!r.ok)throw new Error('Missing preview data');return r.json()}));
+const [D,alignment]=await Promise.all(['./data.json?v=3ddd39077c7d','./showcase-pairs.json'].map(async u=>{const r=await fetch(u);if(!r.ok)throw new Error('Missing preview data');return r.json()}));
 const S=D.story,controllers=[];
 const projectionDetails=$('#projection-details');
 const pi=stage=>`<span class="policy">π<sub>${stage}</sub></span>`;
