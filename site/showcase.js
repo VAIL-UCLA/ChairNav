@@ -1,7 +1,7 @@
 (async function(){
 'use strict';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const D=(await (await fetch('./data.json')).json()).showcase;
+const D=(await (await fetch('./data.json?style=gradient-20261013')).json()).showcase;
 let followHardware=true,zh=false,part='platform',mode='train',p=0,duration=16,playing=false,previousTime=0,lastPaint=0,geometry=null,images={},orbit=0,loadToken=0,frameId=0;
 const t=(en,cn)=>zh?cn:en, canvas=$('#projection-canvas'),ctx=canvas.getContext('2d'),video=$('#hardware-video');
 const facts={platform:[['Base','底盘','Permobil M3'],['Computer','计算设备','AGX Orin']],battery:[['Supply','供电','Independent / 独立'],['Powers','供电对象','Onboard computer / 车载计算']],jetson:[['Policy','策略推理','10 Hz'],['Trajectory follower','轨迹跟踪','50 Hz']],can:[['Adapter','适配器','1 × dual CAN'],['CH1','通道 1','Joystick / 摇杆'],['CH2','通道 2','Drive bus / 驱动']],phone:[['Connectivity','网络','Hotspot / 热点'],['Position','位置','GPS logging / GPS 记录']],joystick:[['Input','输入','Rider control / 人工控制'],['Interface','接口','R-net']],zed:[['Observations','观察','RGB-D · 30 Hz'],['Motion estimate','运动估计','Visual–inertial odometry']],rnet:[['Controller','控制器','OEM R-net'],['Output','输出','Motor drive / 电机驱动']],motors:[['Actuation','执行','Wheel motors / 轮毂电机']]};
